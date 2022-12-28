@@ -2,6 +2,7 @@
 portakal, pern stack react bir yemek sipariş uygulamasıdır. Kayıt olup giriş yapabilirsiniz, authentication işlemleri için Json WEB Token teknolojisini kullandım.
 PostgreSQL içinde tuttuğum şifrelenmesi gereken veriler için Bcrypt'i kullandım. Verilen siparişten veya atılan yorumdan sonra restorantın sipariş sayısının veya yorum sayısının artması için  database de
 Trigger kullandım, restorant araması ve restorant indirimi için yine database de bir fonksiyon yazdım.
+Hangi adreste olduğunuza göre sizin semtinizde olan restorantları listelemek için Stored Procedure kullandım.
 Tasarım için TailwindCSS'i kullandım. İlk olarak portakal'ın nasıl gözüktüğünü
 sonrasında database için ER Diyagramını paylaşacağım.
 ![anasayfa](https://github.com/guneykilicel/portakal/blob/main/client/public/for/forReadme/dashboard.png)
